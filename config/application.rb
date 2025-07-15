@@ -11,7 +11,7 @@ module RateLimitedApp
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 8.0
 
-     # Rack::Attack should be near the top
+    # Rack::Attack should be near the top
     config.middleware.use Rack::Attack
 
     # Please, add to the `ignore` list any other `lib` subdirectories that do
@@ -26,6 +26,5 @@ module RateLimitedApp
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-    
   end
 end

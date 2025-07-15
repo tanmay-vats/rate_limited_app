@@ -62,15 +62,15 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem 'rack-attack'
+gem "rack-attack"
 
 group :development, :test do
-  gem 'rspec-rails', '~> 6.0'
+  gem "rspec-rails", "~> 6.0"
 end
 
 group :test do
-  gem 'database_cleaner-active_record'
-  gem 'simplecov', require: false
-  gem 'rack-test'
-  gem 'timecop'
+  gem "database_cleaner-active_record"
+  gem "simplecov", require: false
+  gem "rack-test"
+  gem "timecop"
 end
