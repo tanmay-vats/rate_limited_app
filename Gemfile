@@ -65,7 +65,7 @@ end
 gem "rack-attack"
 
 group :development, :test do
-  gem "rspec-rails", "~> 6.0"
+  gem "rspec-rails", "~> 8.0"
 end
 
 group :test do
